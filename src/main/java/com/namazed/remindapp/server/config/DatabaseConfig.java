@@ -20,7 +20,7 @@ import java.io.InputStream;
 import java.util.Properties;
 
 @Configuration
-@EnableJpaRepositories("com.qoobico.remindme.server.repository")
+@EnableJpaRepositories("com.namazed.remindapp.server.repository")
 @EnableTransactionManagement
 @PropertySource("classpath:db.properties")
 @ComponentScan("com.namazed.remindapp.server")
